@@ -417,11 +417,15 @@ header {
 }
 
 .portfolio__item {
+    height: 100%;
+    width: 100%;
     background-color: var(--clr-accent);
     overflow: hidden;
 }
 
 .portfolio__img {
+    height: 100%;
+    width: 100%;
     /* cubic-bezier defined by four points. helps create an ease in and out animation */
     transition:
         transform 750ms cubic-bezier(.5, 0, .5, 1),
