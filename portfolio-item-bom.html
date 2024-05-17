@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edward Jihun Park Portfolio Website</title>
+    <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Noto+Serif&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">Previous Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- intro home -->
+    <!-- classes for styling id for anchoring -->
+    <section class="intro" id="home">
+        <!-- double hyphen means it's a modifier class -->
+        <h1 class="section__title section__title--intro">
+            Project <strong>Book of Marks</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"><strong>Full-Stack Dev</strong></p>
+        <img src="./img/bom/bom.jpg" alt="a picture of the book of marks" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>Full stack application made with a team of senior developers and designers to create
+          an app that allows users to make tags and notes of the bible. It saves the notes and
+          tags that the user creates and allows them to view them later on.
+        </p>
+        <div class="txt-center">
+            <a class="btn btn-margin" href="https://book-of-e994d.web.app/ ">Check out the website</a>
+        </div>
+        <img src="img/bom/bom-add.jpg" alt="annotation feature">
+        <p>In this example we see after highlighting the text an add button pops up that allows users to create notes
+          based on the highlight of the text. After pressing the add button the annotations page pops up
+        </p>
+        <img src="img/bom/bom-notes.jpg" alt="notes pop up">
+        <p></p>
+        <div class="txt-center">
+          <a class="btn btn-margin" href="https://book-of-e994d.web.app/ ">Check out the website</a>
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mainto:jihunparked@gmail.com" class="footer__link">jihunparked@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://www.linkedin.com/in/edward-jihun-park/" class="social-list__link">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://www.github.com/Jihunp" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <!-- <li class="social-list__item">
+                <a href="" class="social-list__link">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li> -->
+
+        </ul>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
