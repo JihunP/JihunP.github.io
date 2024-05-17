@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edward Jihun Park Portfolio Website</title>
+    <link rel="stylesheet" href="  https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Noto+Serif&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">Previous Projects</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- intro home -->
+    <!-- classes for styling id for anchoring -->
+    <section class="intro" id="home">
+        <!-- double hyphen means it's a modifier class -->
+        <h1 class="section__title section__title--intro">
+            Project <strong>Wordle Clone</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"><strong>Full-Stack Dev</strong></p>
+        <img src="./img/wordle/wordle.png" alt="a picture of the wordle game" class="intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p>This project was based on the idea of creating an online e-commerce website using python and django. The most
+            impressive functionality of this website is the cart feature. It allows authenticated users to have a cart
+            and checkout the items placed in their card from the store front.</p>
+        <img src="img/cart.png" alt="picture of ed smiling under a happy birthday sign">
+        <p>Here is another example of the checkout page after clicking on the cart icon located in the top right we can
+            dynamically increase or decrease the amount of items in the cart by pressing on the up or down arrow.</p>
+        <p>The most challenging but rewarding part of this experience was the styling for the website. Figuring out the
+            layout the layout of the website and how to make the most user friendly experience was challenging because
+            of my lack of time with the topic. Through this project, I learned how important the visual appeal of a
+            website is. </p>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mainto:jihunparked@gmail.com" class="footer__link">jihunparked@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="" class="social-list__link">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="" class="social-list__link">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>

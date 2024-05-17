@@ -316,6 +316,7 @@ header {
     /* blend helps create a more visible background for the text to be more readible */
     /* background-blend-mode: multiply; */
     /* padding: 5%; */
+    padding: 3%;
     text-align: center;
 }
 
@@ -360,7 +361,7 @@ header {
 
 .about-me {
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 2em auto;
 }
 
 .about-me__img {
